@@ -44,7 +44,7 @@ const menuLst: menuText[] = [
         text: 'Join Discord',
         subText: '',
         ac: true,
-        url: 'https://discord.com/invite/P6gZVZByFG',
+        url: 'https://discord.gg/Bdrce2HTCW',
     }
 ];
 const THead:React.FC<HomePropsType> = () => {
@@ -76,8 +76,8 @@ const TPublicBlock: React.FC<HomePropsType> = () => {
     return(
         <div className="t-block-tooter">
             <span className="t-block-rent">Early Birds Get The Worm ($RENT)</span>
-            <img onClick={openUrl.bind(this, "https://discord.com/invite/P6gZVZByFG")} className="t-block-icon" src={require("./images/t1/t1-discord.png")} alt=""/>
-            <span onClick={openUrl.bind(this, "https://discord.com/invite/P6gZVZByFG")} className="t-block-text">Discord</span>
+            <img onClick={openUrl.bind(this, "https://discord.gg/Bdrce2HTCW")} className="t-block-icon" src={require("./images/t1/t1-discord.png")} alt=""/>
+            <span onClick={openUrl.bind(this, "https://discord.gg/Bdrce2HTCW")} className="t-block-text">Discord</span>
             <span className="t-block-division">|</span>
             <img onClick={openUrl.bind(this, "https://twitter.com/rentfun_io")} className="t-block-icon" src={require("./images/t1/t1-twitter.png")} alt=""/>
             <span onClick={openUrl.bind(this, "https://twitter.com/rentfun_io")} className="t-block-text">Twitter</span>
@@ -423,7 +423,7 @@ const TFoot:React.FC<HomePropsType> = () => {
     return(
         <div className="t-block t-public-padding center">
             <div className="t-f-icon">
-                <img onClick={openUrl.bind(this, "https://discord.com/invite/P6gZVZByFG")} src={require("./images/foot/f1.png")} alt=""/>
+                <img onClick={openUrl.bind(this, "https://discord.gg/Bdrce2HTCW")} src={require("./images/foot/f1.png")} alt=""/>
                 <img onClick={openUrl.bind(this, "https://twitter.com/rentfun_io")} className="f2" src={require("./images/foot/f2.png")} alt=""/>
                 <img onClick={openUrl.bind(this, "https://github.com/RentFun")} src={require("./images/foot/f3.png")} alt=""/>
             </div>
